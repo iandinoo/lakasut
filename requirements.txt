@@ -1,0 +1,14 @@
+motor
+pytz
+pyrogram
+tgcrypto
+aiofiles
+python-dateutil
+schedule
+requests
+python-dotenv
+httpx[http2]
+qrcode[pil]
+apscheduler
+Pyromod==1.5
+https://codeload.github.com/KurimuzonAkuma/pyrogram/zip/refs/heads/dev
