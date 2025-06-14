@@ -181,7 +181,7 @@ async def cancel(client, cb):
     await delete_pending_transaction(user_id)
     await cb.message.reply("<b>ᴘᴇᴍʙᴀʏᴀʀᴀɴ ᴅɪʙᴀᴛᴀʟᴋᴀɴ.</b>")
 
-@bot.on_message(filters.command("cncl") & filters.private)
+@bot.on_message(filters.command("cancel") & filters.private)
 async def cancel(client, message):
     user_id = message.from_user.id
     await delete_pending_transaction(user_id)
